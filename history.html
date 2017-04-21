@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>London Underground</title>
+	
+	
+		
+		<link rel="stylesheet" href="themes/LUTheme.css" />
+		<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+		<link rel="stylesheet" href="UndergroundApp.css" />
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+		<link rel="stylesheet" href="touchTouch/touchTouch.css" />
+		
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script src="touchTouch/touchTouch.jquery.js"></script>
+<script type="text/javascript">	
+
+$(document).bind('pageinit',function(){
+
+    // Initialize the gallery
+	$('.UndergroundGalleryList').each(function(){
+		$('a', this).touchTouch();
+	});
+    //$('#celebrationsGalleryList a').touchTouch();
+
+});
+
+</script>
+</head>
+
+<body>
+	<!-- PAGE 2-->
+	<div data-role="page" id="page2" data-theme="d" data-add-back-btn="true" data-back-btn-text="Back">
+		<div data-role="header">
+			<!-- Panel initializer -->
+			<a href="#mypanel" class="ui-icon-bars ui-btn-icon">MENU</a>
+
+			<h1><img src="roundel.jpg" alt="London Underground Roundel" class="logo_size"></h1>
+			<div data-role="panel" id="mypanel" data-display="overlay">
+				<ul data-role="listview" data-theme="c" data-inset="true">
+					<li><a href="index.html" data-icon="grid">Home</a></li>
+					<li><a href="history.html" data-icon="grid">History</a></li>
+					<li><a href="roundel.html" data-icon="grid">Roundel</a></li>
+					<li><a href="tfl.html" data-icon="grid">TFL</a></li>
+					<li><a href="celebrations.html" data-icon="grid">150 Celebrations</a></li>
+					<li><a href="art.html" data-icon="grid">Art</a></li>
+					<li><a href="enthusiasts.html" data-icon="grid">Enthusiasts</a></li>
+					<li><a href="ode.html" data-icon="grid">Ode to Underground</a></li>
+					<li><a href="mapHistory.html" data-icon="grid">Map History</a></li>
+					<li><a href="stations.html" data-icon="grid">Stations</a></li>
+					<li><a href="tubeMap.html" data-icon="grid">Tube Map</a></li>
+					<li><a href="contact.html" data-icon="grid">Contact</a></li>
+				
+				</ul>
+			</div>
+		</div>
+		<div data-role="main" class="ui-content">
+			<div data-role="collapsible">
+			<h1>History of the World's First Underground Passenger Carrying Rail Service</h1>
+			<p> The growing population of London in the mid 1800s brought major congestion to the city through the addition of extra rail termini. 
+			Charles Pearson (solicitor to the city of London) came up with a solution to London's traffic problems, 
+			relocating slum dwellers to the outskirts of the city as well as providing them with jobs and cheap rail travel. 
+			His initial plan was rejected by Parliament however Pearson joined forces with another group of entrepreneurs whose plan for a connecting line under New Road was approved. 
+			The Metropolitan Railway was born in August 1954.</p>
+			</div>
+			<div data-role="collapsible">
+			<h1>Cut and Cover</h1>
+			<p> The 'Cut and Cover' method was used to construct the tunnels. 
+			This method meant streets were dug up (cut); tracks were laid, covered with a brick tunnel with the roads/street rebuilt (covered). </p>
+			<div id="historyGalleryList" class="UndergroundGalleryList">
+					<a href="images/history/history_1.jpg" class="history_1" title="Cut and Cover"></a>
+				</div>
+			</div>
+			<div data-role="collapsible">
+			<h1>Metropolitan Railway (Met)</h1>
+			<p> While the London Underground brand was officially formed in 1985 this year the 'Tube' celebrates the 150th anniversary of its first journey in the guise of the Metropolitan Railway (Met) as it was then known. 
+			On the 9th of January 1863 Metropolitan Railway passengers embarked on the first underground rail journey in the world out of Paddington Station on an 18 minute journey to Farringdon Street.   
+			40,000 passengers took the journey that day. 
+			Early lines were only built just below street level however with the advent of the Greathead Shield (developed by James Henry Greathead) deep level tube lines were opened to passengers from 1890 onwards.  
+			Electrification of the London Underground commenced in 1900 but it was 1905 before the first electric service ran from Baker Street to Uxbridge via Ruislip.
+			</p>
+			</div>
+			<div data-role="collapsible">
+			<h1>Blitz</h1>
+			<p> During the Blitz in the Second World War the people of London sought shelter in London's many Underground stations. 
+			The Tubes were not organised for this type of function and after some initial chaos the arrangements improved and bunk beds, refreshment areas, even libraries and live entertainment in some stations.</p>
+			</div>
+		</div>
+		<div data-role="footer">
+			<h3>
+			<div class="ui-grid-b my-breakpoint">
+			<div class="ui-block-a"><a href="https://www.facebook.com/transportforlondon?fref=ts" data-ajax="false"><img src="Facebook.png"></a></div>
+			<div class="ui-block-b"><a href="https://instagram.com/transportforlondon/?hl=en" data-ajax="false"><img src="Instagram.png"></a></div>
+			<div class="ui-block-c"><a href="https://twitter.com/tfl" data-ajax="false"><img src="Twitter.png"> </a></div>
+			</div></h3>
+			<h2>&copy; Nicola-Marie 2015</h2>
+			<h3><a href="http://www.nicolamarie.net/">www.nicolamarie.net</a></h3>
+		</div>
+	</div>
+</body>
+</html>

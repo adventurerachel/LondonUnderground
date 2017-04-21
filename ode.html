@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>London Underground</title>
+	
+	
+		
+		<link rel="stylesheet" href="themes/LUTheme.css" />
+		<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+		<link rel="stylesheet" href="UndergroundApp.css" />
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+		<link rel="stylesheet" href="touchTouch/touchTouch.css" />
+		
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script src="touchTouch/touchTouch.jquery.js"></script>
+<script type="text/javascript">	
+
+$(document).bind('pageinit',function(){
+
+    // Initialize the gallery
+	$('.UndergroundGalleryList').each(function(){
+		$('a', this).touchTouch();
+	});
+    //$('#celebrationsGalleryList a').touchTouch();
+
+});
+
+</script>
+</head>
+
+<body>
+<!-- PAGE 8-->
+	<div data-role="page" id="page8" data-theme="d" data-add-back-btn="true" data-back-btn-text="Back">
+		<div data-role="header">
+			<!-- Panel initializer -->
+			<a href="#mypanel" class="ui-icon-bars ui-btn-icon">MENU</a>
+
+			<h1><img src="roundel.jpg" alt="London Underground Roundel" class="logo_size"></h1>
+			<div data-role="panel" id="mypanel" data-display="overlay">
+				<ul data-role="listview" data-theme="c" data-inset="true">
+					<li><a href="index.html" data-icon="grid" data-ajax="false">Home</a></li>
+					<li><a href="history.html" data-icon="grid" data-ajax="false">History</a></li>
+					<li><a href="roundel.html" data-icon="grid" data-ajax="false">Roundel</a></li>
+					<li><a href="tfl.html" data-icon="grid" data-ajax="false">TFL</a></li>
+					<li><a href="celebrations.html" data-icon="grid" data-ajax="false">150 Celebrations</a></li>
+					<li><a href="art.html" data-icon="grid" data-ajax="false">Art</a></li>
+					<li><a href="enthusiasts.html" data-icon="grid" data-ajax="false">Enthusiasts</a></li>
+					<li><a href="ode.html" data-icon="grid" data-ajax="false">Ode to Underground</a></li>
+					<li><a href="mapHistory.html" data-icon="grid" data-ajax="false">Map History</a></li>
+					<li><a href="stations.html" data-icon="grid" data-ajax="false">Stations</a></li>
+					<li><a href="tubeMap.html" data-icon="grid" data-ajax="false">Tube Map</a></li>
+					<li><a href="contact.html" data-icon="grid" data-ajax="false">Contact</a></li>				
+				</ul>
+			</div>
+		</div>
+		<div data-role="main" class="ui-content">
+			<div data-role="collapsible">
+			<h1>Ode to Underground</h1>
+			<p> A hidden gem, off the beaten track…these are all terms that us travellers seek out with the hope of making a unique discovery. 
+			During my last trip to London I decided to forgo searching for 'that tapas joint' or 'that quirky museum' staying ON the beaten track yet without compromising my need to explore the unknown. 
+			Steeped in history, London's transport system is one of the most beaten tracks in the world and has always been ahead of its time. 
+			Kings Cross/St Pancras was my first stop. 
+			Built in 1852 the station recently underwent renovation works and now boasts a futuristic steel and glass lattice gateway to the north without taking from its original features. 
+			Going underground I hop on the 'Tube' several changes later and a new found respect for those who built this intricate web of lines, it was time for me to disembark at Covent Garden. 
+			If you want to whet your appetite before you decide how many zones you need to travel within, Covent Garden's Transport museum is a must! 
+			After a fascinating afternoon I get back on the Tube, arriving at Canary Wharf station to take my first trip on the DLR or Docklands Light Railway. 
+			But first I marvel at the sky scraping buildings in London’s financial district. 
+			My train arrives taking me to Greenwich in less than 10 minutes. 
+			Greenwich is a magical little place evoking its own sense of whimsy at every corner. 
+			A stark contrast to the town are the brutalist style dwellings on the outskirts. 
+			I sit amidst the Clockwork Orange-esque architecture for a bit taking in the sites. 
+			I'm pretty sure I can spot the Shard in the distance as well as the Gherkin and St Paul's Cathedral. 
+			I need to be on the other side of the water so I decide to leave my claustrophobic self behind and walk 370 meters under the Thames. 
+			Strolling through the Greenwich foot tunnel I marvelled at the 100 year old structure, wondering if I was walking in the footsteps of an Edwardian lady, a common labourer, an artist, a poet…more than likely those scuffed shoe marks were from a fellow tourist but it’s ok to dream. 
+			So whether a native or a tourist London's transport system is more than just a way of getting from A to B. 
+			Hop on, you wont be disappointed.</p>
+			<div id="odeGalleryList" class="UndergroundGalleryList">
+					<a href="images/ode/ode_1.jpg"  class="ode_1"></a>
+				</div>
+			</div>
+		</div>
+		<div data-role="footer">
+			<h3>
+			<div class="ui-grid-b my-breakpoint">
+			<div class="ui-block-a"><a href="https://www.facebook.com/transportforlondon?fref=ts" data-ajax="false"><img src="Facebook.png"></a></div>
+			<div class="ui-block-b"><a href="https://instagram.com/transportforlondon/?hl=en" data-ajax="false"><img src="Instagram.png"></a></div>
+			<div class="ui-block-c"><a href="https://twitter.com/tfl" data-ajax="false"><img src="Twitter.png"> </a></div>
+			</div></h3>
+			<h2>&copy; Nicola-Marie 2015</h2>
+			<h3><a href="http://www.nicolamarie.net/">www.nicolamarie.net</a></h3>
+		</div>
+	</div>
+	</body>
+</html>

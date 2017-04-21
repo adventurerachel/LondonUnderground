@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>London Underground</title>
+	
+	
+		
+		<link rel="stylesheet" href="themes/LUTheme.css" />
+		<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+		<link rel="stylesheet" href="UndergroundApp.css" />
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+		<link rel="stylesheet" href="touchTouch/touchTouch.css" />
+		
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script src="touchTouch/touchTouch.jquery.js"></script>
+<script type="text/javascript">	
+
+$(document).bind('pageinit',function(){
+
+    // Initialize the gallery
+	$('.UndergroundGalleryList').each(function(){
+		$('a', this).touchTouch();
+	});
+    //$('#celebrationsGalleryList a').touchTouch();
+
+});
+</script>
+</head>
+
+<body>
+<!-- PAGE 10-->
+	<div data-role="page" id="page10" data-theme="d" data-add-back-btn="true" data-back-btn-text="Back">
+		<div data-role="header">
+			<!-- Panel initializer -->
+			<a href="#mypanel" class="ui-icon-bars ui-btn-icon">MENU</a>
+
+			<h1><img src="roundel.jpg" alt="London Underground Roundel" class="logo_size"></h1>
+			<div data-role="panel" id="mypanel" data-display="overlay">
+				<ul data-role="listview" data-theme="c" data-inset="true">
+					<li><a href="index.html" data-icon="grid" data-ajax="false">Home</a></li>
+					<li><a href="history.html" data-icon="grid" data-ajax="false">History</a></li>
+					<li><a href="roundel.html" data-icon="grid" data-ajax="false">Roundel</a></li>
+					<li><a href="tfl.html" data-icon="grid" data-ajax="false">TFL</a></li>
+					<li><a href="celebrations.html" data-icon="grid" data-ajax="false">150 Celebrations</a></li>
+					<li><a href="art.html" data-icon="grid" data-ajax="false">Art</a></li>
+					<li><a href="enthusiasts.html" data-icon="grid" data-ajax="false">Enthusiasts</a></li>
+					<li><a href="ode.html" data-icon="grid" data-ajax="false">Ode to Underground</a></li>
+					<li><a href="mapHistory.html" data-icon="grid" data-ajax="false">Map History</a></li>
+					<li><a href="stations.html" data-icon="grid" data-ajax="false">Stations</a></li>
+					<li><a href="tubeMap.html" data-icon="grid" data-ajax="false">Tube Map</a></li>
+					<li><a href="contact.html" data-icon="grid" data-ajax="false">Contact</a></li>				
+				</ul>
+			</div>
+		</div>
+		<div data-role="main" class="ui-content">
+			
+			<div data-role="collapsible">
+			<h1>Stations</h1>
+			<p> What began as a task to link the already established stations of Paddington, Euston and Kings Cross via subterranean railway has evolved into  some 270 stations currently serviced by 11 lines throughout London. 
+			The London Underground has some  interesting facts about almost all of its stations;  for example Waterloo during the three hour morning peak is the busiest, servicing some 82 million passengers per year. 
+			Consequently it also has the most escalators (23).  
+			Baker Street Station has the most platforms (10) and King's Cross holds the honour of having the shortest lift shaft 2.3m/7.5ft.</p>
+				
+				<div id="stationsGalleryList" class="UndergroundGalleryList">
+					<a href="images/stations/underground_2.jpg"  class="underground_2"  title="Barbican"></a>
+					<a href="images/stations/underground_3.jpg"  class="underground_3"  title="Canary Wharf"></a>
+					<a href="images/stations/underground_4.jpg"  class="underground_4"  title="Chesham"></a>
+					<a href="images/stations/underground_5.jpg"  class="underground_5"  title="Cockfosters"></a>
+					<a href="images/stations/underground_6.jpg"  class="underground_6"  title="East Finchley"></a>
+					<a href="images/stations/underground_7.jpg"  class="underground_7"  title="Gants Hill"></a>
+					<a href="images/stations/underground_8.jpg"  class="underground_8"  title="St James Park"></a>
+					<a href="images/stations/underground_9.jpg"  class="underground_9"  title="Southwark"></a>
+					<a href="images/stations/underground_10.jpg" class="underground_10" title="Westminster"></a>
+				</div>
+			</div>
+		</div>
+		<div data-role="footer">
+			<h3>
+			<div class="ui-grid-b my-breakpoint">
+			<div class="ui-block-a"><a href="https://www.facebook.com/transportforlondon?fref=ts" data-ajax="false"><img src="Facebook.png"></a></div>
+			<div class="ui-block-b"><a href="https://instagram.com/transportforlondon/?hl=en" data-ajax="false"><img src="Instagram.png"></a></div>
+			<div class="ui-block-c"><a href="https://twitter.com/tfl" data-ajax="false"><img src="Twitter.png"> </a></div>
+			</div></h3>
+			<h2>&copy; Nicola-Marie 2015</h2>
+			<h3><a href="http://www.nicolamarie.net/">www.nicolamarie.net</a></h3>
+		</div>
+	</div>
+	</body>
+</html>

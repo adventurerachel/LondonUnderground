@@ -1,0 +1,170 @@
+.UndergroundGalleryList{
+	width:auto;
+	margin:60px auto 35px;
+	text-align:center;
+}
+
+.UndergroundGalleryList a{
+	width:80px;
+	height:80px;
+	display:inline-block;
+	border:7px solid #303030;
+	box-shadow:0 1px 3px rgba(0,0,0,0.5);
+	border-radius:4px;
+	margin: 6px 6px 40px;
+	position:relative;
+	text-decoration:none;
+	
+	background-position:center center;
+	background-repeat: no-repeat;
+	
+	background-size:cover;
+	-moz-background-size:cover;
+	-webkit-background-size:cover;
+}
+
+.UndergroundGalleryList a:after{
+	background-color: #303030;
+    border-radius: 7px;
+    bottom: -96px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    color: #FFFFFF;
+    content: attr(title);
+    display: inline-block;
+    font-size: 10px;
+    max-width: 90px;
+    overflow: hidden;
+    padding: 2px 10px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+}
+
+/* Gallery Image Backgrounds */
+
+.underground_2{
+      background-image:url(images/stations/underground_2.jpg)
+}
+.underground_3{
+      background-image:url(images/stations/underground_3.jpg)
+}
+.underground_4{
+      background-image:url(images/stations/underground_4.jpg)
+}
+.underground_5{
+      background-image:url(images/stations/underground_5.jpg)
+}
+.underground_6{
+      background-image:url(images/stations/underground_6.jpg)
+}
+.underground_7{
+      background-image:url(images/stations/underground_7.jpg)
+}
+.underground_8{
+      background-image:url(images/stations/underground_8.jpg)
+}
+.underground_9{
+      background-image:url(images/stations/underground_9.jpg)
+}
+.underground_10{
+      background-image:url(images/stations/underground_10.jpg)
+}
+.underground_11{
+      background-image:url(images/stations/underground_11.jpg)
+}
+
+.tfl_1{
+	  background-image:url(images/tfl/tfl_1.jpg)
+}
+
+.roundel_1{
+	  background-image:url(images/roundel/roundel_1.jpg)
+}
+
+.tubeMap_1{
+	  width:100%; 
+	  height:100%;
+}
+
+.ode_1{
+	  background-image:url(images/ode/ode_1.jpg)
+}
+
+.mapHistory_1{
+	  background-image:url(images/mapHistory/map_1.jpg)
+}
+.mapHistory_2{
+	  background-image:url(images/mapHistory/map_2.jpg)
+}
+.mapHistory_3{
+	  background-image:url(images/mapHistory/map_3.jpg)
+}
+.mapHistory_4{
+	  background-image:url(images/mapHistory/map_4.jpg)
+}
+.mapHistory_5{
+	  background-image:url(images/mapHistory/map_5.jpg)
+}
+.mapHistory_6{
+	  background-image:url(images/mapHistory/map_6.jpg)
+}
+
+.history_1{
+	  background-image:url(images/history/history_1.jpg)
+}
+
+.enthusiasts_1{
+	  background-image:url(images/enthusiasts/enthusiasts_2.jpg)
+}
+
+.celebrations_1{
+	  background-image:url(images/celebrations/celebrations_1.jpg)
+}
+.celebrations_2{
+	  background-image:url(images/celebrations/celebrations_2.jpg)
+}
+.celebrations_3{
+	  background-image:url(images/celebrations/celebrations_3.jpg)
+}
+.celebrations_4{
+	  background-image:url(images/celebrations/celebrations_4.jpg)
+}
+
+.art_1{
+	  background-image:url(images/art/art_1.jpg)
+}
+.art_2{
+	  background-image:url(images/art/art_2.jpg)
+}
+.art_3{
+	  background-image:url(images/art/art_3.jpg)
+}
+.art_4{
+	  background-image:url(images/art/art_4.jpg)
+}
+.art_5{
+	  background-image:url(images/art/art_5.jpg)
+}
+.art_6{
+	  background-image:url(images/art/art_6.jpg)
+}
+
+.logo_size{
+	  width:100%;
+	  height:100%;
+}
+
+.footer_size_a{
+	  width:30%;
+	  height:30%;
+}
+
+.footer_size_a{
+	  width:30%;
+	  height:30%;
+}
+.footer_size_a{
+	  width:30%;
+	  height:30%;
+}
+

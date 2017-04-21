@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>London Underground</title>
+	
+	
+		
+		<link rel="stylesheet" href="themes/LUTheme.css" />
+		<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+		<link rel="stylesheet" href="UndergroundApp.css" />
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+		<link rel="stylesheet" href="touchTouch/touchTouch.css" />
+		
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script src="touchTouch/touchTouch.jquery.js"></script>
+<script type="text/javascript">	
+
+$(document).bind('pageinit',function(){
+
+    // Initialize the gallery
+	$('.UndergroundGalleryList').each(function(){
+		$('a', this).touchTouch();
+	});
+    //$('#celebrationsGalleryList a').touchTouch();
+
+});
+
+</script>
+</head>
+
+<body>
+<!-- PAGE 5-->
+	<div data-role="page" id="page5" data-theme="d" data-add-back-btn="true" data-back-btn-text="Back">
+		<div data-role="header">
+			<!-- Panel initializer -->
+			<a href="#mypanel" class="ui-icon-bars ui-btn-icon">MENU</a>
+
+			<h1><img src="roundel.jpg" alt="London Underground Roundel" class="logo_size"></h1>
+			<div data-role="panel" id="mypanel" data-display="overlay">
+				<ul data-role="listview" data-theme="c" data-inset="true">
+					<li><a href="index.html" data-icon="grid" data-ajax="false">Home</a></li>
+					<li><a href="history.html" data-icon="grid" data-ajax="false">History</a></li>
+					<li><a href="roundel.html" data-icon="grid" data-ajax="false">Roundel</a></li>
+					<li><a href="tfl.html" data-icon="grid" data-ajax="false">TFL</a></li>
+					<li><a href="celebrations.html" data-icon="grid" data-ajax="false">150 Celebrations</a></li>
+					<li><a href="art.html" data-icon="grid" data-ajax="false">Art</a></li>
+					<li><a href="enthusiasts.html" data-icon="grid" data-ajax="false">Enthusiasts</a></li>
+					<li><a href="ode.html" data-icon="grid" data-ajax="false">Ode to Underground</a></li>
+					<li><a href="mapHistory.html" data-icon="grid" data-ajax="false">Map History</a></li>
+					<li><a href="stations.html" data-icon="grid" data-ajax="false">Stations</a></li>
+					<li><a href="tubeMap.html" data-icon="grid" data-ajax="false">Tube Map</a></li>
+					<li><a href="contact.html" data-icon="grid" data-ajax="false">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+		<div data-role="main" class="ui-content">
+			<div data-role="collapsible">
+			<h1>150 Year Celebrations</h1>
+			<p> TFL in conjunction with the London Transport Museum supported by various sponsors organised a range of activities to coincide with the 150th anniversary of the London Underground which took place on January 9th 2013. 
+			The events aim to explore the history of the London Underground and how it will impact the future.  
+			150 Londoners detailed their experiences of the London Underground on the Evening Standard newspaper and historical milestones were detailed on TFL's official Twitter and Facebook pages. 
+			The London Transport museum is also selling a wide range of souvenirs.
+			However the main event was a restored Met Locomotive No.1 steam train pulling the Metropolitan Railway 'Jubilee' carriage No. 353 which was built in 1982 and the Chesham set of coaches on January 13th and January 20th 2013 along part of the original Metropolitan Line (now known as Hammersmith & City Line).  
+			The  Metropolitan Railway electric locomotive No. 12 'Sarah Siddons' will also form part of this train</p>
+			<div id="celebrationsGalleryList" class="UndergroundGalleryList">
+					<a href="images/celebrations/celebrations_1.jpg"  class="celebrations_1" title="Stamps"></a>
+					<a href="images/celebrations/celebrations_2.jpg"  class="celebrations_2"  title="150"></a>
+					<a href="images/celebrations/celebrations_3.jpg"  class="celebrations_3"  title="Steam Train"></a>
+					<a href="images/celebrations/celebrations_4.jpg"  class="celebrations_4"  title="Oyster Card"></a>
+				</div>
+			</div>
+		</div>
+		<div data-role="footer">
+			<h3>
+			<div class="ui-grid-b my-breakpoint">
+			<div class="ui-block-a"><a href="https://www.facebook.com/transportforlondon?fref=ts" data-ajax="false"><img src="Facebook.png"></a></div>
+			<div class="ui-block-b"><a href="https://instagram.com/transportforlondon/?hl=en" data-ajax="false"><img src="Instagram.png"></a></div>
+			<div class="ui-block-c"><a href="https://twitter.com/tfl" data-ajax="false"><img src="Twitter.png"> </a></div>
+			</div></h3>
+			<h2>&copy; Nicola-Marie 2015</h2>
+			<h3><a href="http://www.nicolamarie.net/">www.nicolamarie.net</a></h3>
+		</div>
+	</div>
+	
+	</body>
+</html>
